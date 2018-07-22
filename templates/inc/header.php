@@ -14,8 +14,9 @@
             <nav>
                 <ul class="nav nav-pills float-right pt-3">
                     <li class="nav-item pr-3"><a href="index.php">Home</a></li>
-                    <li class="nav-item"><a href="#">Create Listing</a></li>
+                    <li class="nav-item"><a href="create.php">Create Listing</a></li>
                 </ul>
             </nav>
             <h3 class="text-muted"><?php echo SITE_TITLE;?></h3>
         </div>
+        <?php displayMessage(); ?>
